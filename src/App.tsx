@@ -1,11 +1,11 @@
 import "./App.css";
-import Hanburger from "./component/hamburgerMenu/Hanburger";
+import { HamburgerMenu } from "./component/hamburgerMenu/Hamburger";
 
 function App() {
   return (
     <>
       <div className="header-container">
-        <Hanburger />
+        <HamburgerMenu />
       </div>
     </>
   );
