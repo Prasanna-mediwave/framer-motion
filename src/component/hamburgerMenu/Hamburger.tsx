@@ -2,7 +2,6 @@ import { motion, useCycle } from "framer-motion";
 import "./hamburger.css";
 import { useEffect, useRef } from "react";
 import { MenuToggle } from "./MenuToggle";
-import { log } from "console";
 
 const Items = [
   {
